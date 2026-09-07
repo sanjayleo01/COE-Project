@@ -1,0 +1,241 @@
+return_id,product_id,return_text,customer_action,predicted_label,confidence,priority,evidence,true_root_cause
+R0001,P010,found a better price elsewhere,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0002,P010,ordered by mistake,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0003,P008,didn't like the color in person,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0004,P008,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0005,P005,photo showed a different length than what i received,refund,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0006,P005,,exchange,PHOTO_MISLEADING,0.8,HIGH,listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0007,P004,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0008,P002,,exchange,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0009,P012,didn't like the color in person,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0010,P007,fabric is not genuine leather as advertised,exchange,MATERIAL_MISMATCH,0.9,HIGH,return text contains 'fabric'; inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0011,P007,,exchange,MATERIAL_MISMATCH,0.5,MEDIUM,inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0012,P007,material quality does not match description,refund,MATERIAL_MISMATCH,0.9,HIGH,return text contains 'material'; inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0013,P010,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0014,P005,color and fit shown in picture is misleading,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0015,P009,specifications in listing are incorrect,store_credit,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'specification'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0016,P004,,exchange,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0017,P008,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0018,P011,"defective piece, has a tear near the seam",exchange,QUALITY_DEFECT,0.9,HIGH,return text contains 'defect'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0019,P003,ordered M as per size chart but it fits like S,store_credit,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0020,P010,,exchange,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0021,P003,,exchange,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0022,P007,,exchange,MATERIAL_MISMATCH,0.5,MEDIUM,inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0023,P006,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0024,P005,looks completely different from the photo,store_credit,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0025,P009,product description does not match what i received,exchange,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'description'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0026,P004,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0027,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0028,P001,,exchange,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0029,P011,"thread coming loose, poor stitching",refund,QUALITY_DEFECT,0.9,HIGH,return text contains 'stitching'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0030,P008,found a better price elsewhere,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0031,P010,"changed my mind, don't need it anymore",refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0032,P005,looks completely different from the photo,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0033,P010,ordered by mistake,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0034,P004,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0035,P004,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0036,P011,"damaged item, stitching quality is bad",store_credit,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0037,P001,followed the size guide and it still didn't fit,store_credit,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0038,P006,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0039,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0040,P007,fabric is not genuine leather as advertised,exchange,MATERIAL_MISMATCH,0.9,HIGH,return text contains 'fabric'; inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0041,P012,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0042,P009,specifications in listing are incorrect,store_credit,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'specification'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0043,P008,ordered by mistake,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0044,P010,found a better price elsewhere,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0045,P002,found a better price elsewhere,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0046,P008,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0047,P006,didn't like the color in person,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0048,P005,color and fit shown in picture is misleading,store_credit,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0049,P012,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0050,P004,,exchange,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0051,P008,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0052,P012,ordered by mistake,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0053,P002,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0054,P004,found a better price elsewhere,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0055,P008,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0056,P009,listing said memory foam sole but its hard rubber,exchange,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'listing said'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0057,P005,color and fit shown in picture is misleading,refund,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0058,P012,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0059,P009,,refund,DESCRIPTION_INACCURATE,0.5,MEDIUM,inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0060,P012,ordered by mistake,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0061,P009,specifications in listing are incorrect,refund,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'specification'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0062,P004,,refund,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0063,P005,looks completely different from the photo,refund,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0064,P005,looks completely different from the photo,store_credit,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0065,P005,photo showed a different length than what i received,store_credit,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0066,P008,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0067,P005,color and fit shown in picture is misleading,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0068,P003,ordered M as per size chart but it fits like S,exchange,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0069,P002,"changed my mind, don't need it anymore",refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0070,P010,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0071,P005,looks completely different from the photo,refund,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0072,P009,listing said memory foam sole but its hard rubber,store_credit,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'listing said'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0073,P004,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0074,P005,photo showed a different length than what i received,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0075,P010,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0076,P002,didn't like the color in person,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0077,P011,,refund,QUALITY_DEFECT,0.5,MEDIUM,inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0078,P009,,exchange,DESCRIPTION_INACCURATE,0.5,MEDIUM,inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0079,P008,ordered by mistake,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0080,P005,photo showed a different length than what i received,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0081,P002,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0082,P010,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0083,P004,didn't like the color in person,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0084,P002,,exchange,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0085,P010,found a better price elsewhere,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0086,P012,found a better price elsewhere,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0087,P009,specifications in listing are incorrect,refund,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'specification'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0088,P010,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0089,P006,,refund,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0090,P011,"damaged item, stitching quality is bad",refund,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0091,P011,"defective piece, has a tear near the seam",refund,QUALITY_DEFECT,0.9,HIGH,return text contains 'defect'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0092,P008,ordered by mistake,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0093,P010,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0094,P002,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0095,P006,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0096,P007,material quality does not match description,store_credit,MATERIAL_MISMATCH,0.9,HIGH,return text contains 'material'; inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0097,P007,,refund,MATERIAL_MISMATCH,0.5,MEDIUM,inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0098,P006,found a better price elsewhere,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0099,P009,product description does not match what i received,store_credit,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'description'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0100,P008,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0101,P006,ordered by mistake,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0102,P004,found a better price elsewhere,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0103,P008,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0104,P010,didn't like the color in person,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0105,P009,product description does not match what i received,refund,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'description'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0106,P004,"changed my mind, don't need it anymore",refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0107,P011,"thread coming loose, poor stitching",store_credit,QUALITY_DEFECT,0.9,HIGH,return text contains 'stitching'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0108,P005,photo showed a different length than what i received,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0109,P008,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0110,P003,,store_credit,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0111,P009,specifications in listing are incorrect,refund,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'specification'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0112,P005,color and fit shown in picture is misleading,store_credit,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0113,P005,looks completely different from the photo,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0114,P010,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0115,P009,listing said memory foam sole but its hard rubber,store_credit,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'listing said'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0116,P009,listing said memory foam sole but its hard rubber,exchange,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'listing said'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0117,P004,didn't like the color in person,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0118,P007,"material feels cheap, not like the listing said",exchange,MATERIAL_MISMATCH,0.9,HIGH,return text contains 'material'; inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0119,P012,ordered by mistake,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0120,P011,"thread coming loose, poor stitching",refund,QUALITY_DEFECT,0.9,HIGH,return text contains 'stitching'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0121,P003,followed the size guide and it still didn't fit,exchange,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0122,P002,,refund,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0123,P007,material quality does not match description,refund,MATERIAL_MISMATCH,0.9,HIGH,return text contains 'material'; inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0124,P008,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0125,P007,,exchange,MATERIAL_MISMATCH,0.5,MEDIUM,inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0126,P011,"damaged item, stitching quality is bad",exchange,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0127,P011,"damaged item, stitching quality is bad",exchange,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0128,P009,product description does not match what i received,refund,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'description'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0129,P011,"damaged item, stitching quality is bad",refund,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0130,P012,"changed my mind, don't need it anymore",refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0131,P011,"damaged item, stitching quality is bad",exchange,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0132,P003,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0133,P006,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0134,P007,,exchange,MATERIAL_MISMATCH,0.5,MEDIUM,inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0135,P010,,refund,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0136,P010,ordered by mistake,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0137,P008,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0138,P005,color and fit shown in picture is misleading,refund,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0139,P008,found a better price elsewhere,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0140,P002,ordered by mistake,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0141,P005,photo showed a different length than what i received,store_credit,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0142,P005,color and fit shown in picture is misleading,refund,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0143,P007,,exchange,MATERIAL_MISMATCH,0.5,MEDIUM,inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0144,P010,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0145,P005,looks completely different from the photo,store_credit,PHOTO_MISLEADING,1.0,HIGH,return text contains 'photo'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0146,P007,,store_credit,MATERIAL_MISMATCH,0.5,MEDIUM,inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0147,P012,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0148,P008,found a better price elsewhere,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0149,P010,,refund,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0150,P010,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0151,P011,"damaged item, stitching quality is bad",store_credit,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0152,P002,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0153,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0154,P005,color and fit shown in picture is misleading,refund,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0155,P004,didn't like the color in person,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0156,P009,specifications in listing are incorrect,refund,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'specification'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0157,P005,color and fit shown in picture is misleading,exchange,PHOTO_MISLEADING,1.0,HIGH,return text contains 'picture'; listing's photo_accurate = False; inspection notes confirm: 'color/pattern differs from listing photo',PHOTO_MISLEADING
+R0158,P012,found a better price elsewhere,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0159,P002,didn't like the color in person,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0160,P011,"damaged item, stitching quality is bad",exchange,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0161,P009,,exchange,DESCRIPTION_INACCURATE,0.5,MEDIUM,inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0162,P001,followed the size guide and it still didn't fit,exchange,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0163,P006,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0164,P006,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0165,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0166,P011,"thread coming loose, poor stitching",exchange,QUALITY_DEFECT,0.9,HIGH,return text contains 'stitching'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0167,P012,found a better price elsewhere,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0168,P003,ordered M as per size chart but it fits like S,exchange,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0169,P008,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0170,P003,runs very small compared to chart shown,store_credit,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0171,P012,ordered by mistake,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0172,P003,runs very small compared to chart shown,exchange,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0173,P010,ordered by mistake,exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'mistake',NONE
+R0174,P001,,exchange,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0175,P004,,store_credit,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0176,P006,,exchange,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0177,P004,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0178,P002,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0179,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0180,P003,,store_credit,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0181,P004,didn't like the color in person,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0182,P006,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0183,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0184,P003,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0185,P011,,exchange,QUALITY_DEFECT,0.5,MEDIUM,inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0186,P004,,exchange,UNKNOWN,0.0,LOW,no strong signal,NONE
+R0187,P001,"size chart is wrong, way too tight",store_credit,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0188,P002,"changed my mind, don't need it anymore",exchange,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0189,P009,,store_credit,DESCRIPTION_INACCURATE,0.5,MEDIUM,inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0190,P004,"changed my mind, don't need it anymore",store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0191,P009,listing said memory foam sole but its hard rubber,refund,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'listing said'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0192,P001,runs very small compared to chart shown,exchange,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+R0193,P011,"thread coming loose, poor stitching",exchange,QUALITY_DEFECT,0.9,HIGH,return text contains 'stitching'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0194,P002,"changed my mind, don't need it anymore",refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'changed my mind',NONE
+R0195,P002,didn't like the color in person,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+R0196,P010,found a better price elsewhere,store_credit,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'better price',NONE
+R0197,P009,listing said memory foam sole but its hard rubber,store_credit,DESCRIPTION_INACCURATE,0.9,HIGH,return text contains 'listing said'; inspection notes confirm: 'listed specification not present',DESCRIPTION_INACCURATE
+R0198,P007,"material feels cheap, not like the listing said",refund,MATERIAL_MISMATCH,0.9,HIGH,return text contains 'material'; inspection notes confirm: 'fabric composition does not match',MATERIAL_MISMATCH
+R0199,P011,"damaged item, stitching quality is bad",store_credit,QUALITY_DEFECT,0.9,HIGH,return text contains 'damaged'; inspection notes confirm: 'manufacturing defect',QUALITY_DEFECT
+R0200,P012,didn't like the color in person,refund,CUSTOMER_PREFERENCE,0.4,MEDIUM,return text contains 'didn't like the color',NONE
+RS000,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS001,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS002,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS003,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS004,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS005,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS006,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS007,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS008,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS009,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS010,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS011,P001,"size chart is wrong, way too tight",refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS012,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS013,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS014,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS015,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS016,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS017,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS018,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS019,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS020,P001,"size chart is wrong, way too tight",refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS021,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS022,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS023,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS024,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS025,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS026,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS027,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS028,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS029,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS030,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS031,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS032,P001,"size chart is wrong, way too tight",refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS033,P001,"size chart is wrong, way too tight",refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS034,P001,runs very small compared to chart shown,refund,SIZE_CHART_ERROR,0.8,HIGH,product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS035,P001,"size chart is wrong, way too tight",refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS036,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS037,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS038,P001,followed the size guide and it still didn't fit,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size guide'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR
+RS039,P001,ordered M as per size chart but it fits like S,refund,SIZE_CHART_ERROR,1.0,HIGH,return text contains 'size chart'; product's size_chart_accurate = False; inspection notes confirm: 'dimensions smaller than size chart',SIZE_CHART_ERROR

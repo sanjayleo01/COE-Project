@@ -1,0 +1,13 @@
+product_id,category,material,size_chart_accurate,true_root_cause
+P001,T-Shirt,Cotton,False,SIZE_CHART_ERROR
+P002,T-Shirt,Cotton,True,NONE
+P003,Jeans,Denim,False,SIZE_CHART_ERROR
+P004,Jeans,Denim,True,NONE
+P005,Dress,Polyester,True,PHOTO_MISLEADING
+P006,Dress,Polyester,True,NONE
+P007,Jacket,Synthetic Leather,True,MATERIAL_MISMATCH
+P008,Jacket,Genuine Leather,True,NONE
+P009,Shoes,Rubber,True,DESCRIPTION_INACCURATE
+P010,Shoes,Rubber,True,NONE
+P011,Saree,Silk,True,QUALITY_DEFECT
+P012,Saree,Silk,True,NONE

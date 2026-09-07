@@ -1,0 +1,13 @@
+product_id,listing_description,photo_accurate
+P001,T-Shirt made of Cotton. True to size.,True
+P002,T-Shirt made of Cotton. True to size.,True
+P003,Jeans made of Denim. True to size.,True
+P004,Jeans made of Denim. True to size.,True
+P005,Dress made of Polyester. True to size.,False
+P006,Dress made of Polyester. True to size.,True
+P007,Jacket made of Synthetic Leather. True to size.,True
+P008,Jacket made of Genuine Leather. True to size.,True
+P009,Shoes made of Rubber. True to size.,True
+P010,Shoes made of Rubber. True to size.,True
+P011,Saree made of Silk. True to size.,True
+P012,Saree made of Silk. True to size.,True

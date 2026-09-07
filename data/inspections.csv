@@ -1,0 +1,37 @@
+inspection_id,product_id,inspection_notes,defect_found
+I0001,P001,Measured garment: dimensions smaller than size chart states.,True
+I0002,P001,Measured garment: dimensions smaller than size chart states.,True
+I0003,P001,Measured garment: dimensions smaller than size chart states.,True
+I0004,P002,No defect found. Item matches listing and size chart.,False
+I0005,P002,No defect found. Item matches listing and size chart.,False
+I0006,P002,No defect found. Item matches listing and size chart.,False
+I0007,P003,Measured garment: dimensions smaller than size chart states.,True
+I0008,P003,Measured garment: dimensions smaller than size chart states.,True
+I0009,P003,Measured garment: dimensions smaller than size chart states.,True
+I0010,P004,No defect found. Item matches listing and size chart.,False
+I0011,P004,No defect found. Item matches listing and size chart.,False
+I0012,P004,No defect found. Item matches listing and size chart.,False
+I0013,P005,Physical item color/pattern differs from listing photo.,True
+I0014,P005,Physical item color/pattern differs from listing photo.,True
+I0015,P005,Physical item color/pattern differs from listing photo.,True
+I0016,P006,No defect found. Item matches listing and size chart.,False
+I0017,P006,No defect found. Item matches listing and size chart.,False
+I0018,P006,No defect found. Item matches listing and size chart.,False
+I0019,P007,Fabric composition does not match listed material.,True
+I0020,P007,Fabric composition does not match listed material.,True
+I0021,P007,Fabric composition does not match listed material.,True
+I0022,P008,No defect found. Item matches listing and size chart.,False
+I0023,P008,No defect found. Item matches listing and size chart.,False
+I0024,P008,No defect found. Item matches listing and size chart.,False
+I0025,P009,Listed specification not present on physical item.,True
+I0026,P009,Listed specification not present on physical item.,True
+I0027,P009,Listed specification not present on physical item.,True
+I0028,P010,No defect found. Item matches listing and size chart.,False
+I0029,P010,No defect found. Item matches listing and size chart.,False
+I0030,P010,No defect found. Item matches listing and size chart.,False
+I0031,P011,Visible manufacturing defect / damage found.,True
+I0032,P011,Visible manufacturing defect / damage found.,True
+I0033,P011,Visible manufacturing defect / damage found.,True
+I0034,P012,No defect found. Item matches listing and size chart.,False
+I0035,P012,No defect found. Item matches listing and size chart.,False
+I0036,P012,No defect found. Item matches listing and size chart.,False

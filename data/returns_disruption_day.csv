@@ -1,0 +1,241 @@
+return_id,product_id,return_text,customer_action
+R0001,P010,found a better price elsewhere,exchange
+R0002,P010,ordered by mistake,store_credit
+R0003,P008,didn't like the color in person,exchange
+R0004,P008,found a better price elsewhere,store_credit
+R0005,P005,photo showed a different length than what i received,refund
+R0006,P005,,exchange
+R0007,P004,found a better price elsewhere,store_credit
+R0008,P002,,exchange
+R0009,P012,didn't like the color in person,refund
+R0010,P007,fabric is not genuine leather as advertised,exchange
+R0011,P007,,exchange
+R0012,P007,material quality does not match description,refund
+R0013,P010,ordered by mistake,exchange
+R0014,P005,color and fit shown in picture is misleading,exchange
+R0015,P009,specifications in listing are incorrect,store_credit
+R0016,P004,,exchange
+R0017,P008,"changed my mind, don't need it anymore",store_credit
+R0018,P011,"defective piece, has a tear near the seam",exchange
+R0019,P003,ordered M as per size chart but it fits like S,store_credit
+R0020,P010,,exchange
+R0021,P003,,exchange
+R0022,P007,,exchange
+R0023,P006,ordered by mistake,exchange
+R0024,P005,looks completely different from the photo,store_credit
+R0025,P009,product description does not match what i received,exchange
+R0026,P004,"changed my mind, don't need it anymore",store_credit
+R0027,P001,ordered M as per size chart but it fits like S,refund
+R0028,P001,,exchange
+R0029,P011,"thread coming loose, poor stitching",refund
+R0030,P008,found a better price elsewhere,refund
+R0031,P010,"changed my mind, don't need it anymore",refund
+R0032,P005,looks completely different from the photo,exchange
+R0033,P010,ordered by mistake,store_credit
+R0034,P004,"changed my mind, don't need it anymore",store_credit
+R0035,P004,"changed my mind, don't need it anymore",exchange
+R0036,P011,"damaged item, stitching quality is bad",store_credit
+R0037,P001,followed the size guide and it still didn't fit,store_credit
+R0038,P006,"changed my mind, don't need it anymore",exchange
+R0039,P001,runs very small compared to chart shown,refund
+R0040,P007,fabric is not genuine leather as advertised,exchange
+R0041,P012,didn't like the color in person,store_credit
+R0042,P009,specifications in listing are incorrect,store_credit
+R0043,P008,ordered by mistake,store_credit
+R0044,P010,found a better price elsewhere,refund
+R0045,P002,found a better price elsewhere,refund
+R0046,P008,ordered by mistake,exchange
+R0047,P006,didn't like the color in person,exchange
+R0048,P005,color and fit shown in picture is misleading,store_credit
+R0049,P012,found a better price elsewhere,store_credit
+R0050,P004,,exchange
+R0051,P008,didn't like the color in person,store_credit
+R0052,P012,ordered by mistake,refund
+R0053,P002,,store_credit
+R0054,P004,found a better price elsewhere,exchange
+R0055,P008,found a better price elsewhere,store_credit
+R0056,P009,listing said memory foam sole but its hard rubber,exchange
+R0057,P005,color and fit shown in picture is misleading,refund
+R0058,P012,didn't like the color in person,store_credit
+R0059,P009,,refund
+R0060,P012,ordered by mistake,store_credit
+R0061,P009,specifications in listing are incorrect,refund
+R0062,P004,,refund
+R0063,P005,looks completely different from the photo,refund
+R0064,P005,looks completely different from the photo,store_credit
+R0065,P005,photo showed a different length than what i received,store_credit
+R0066,P008,"changed my mind, don't need it anymore",store_credit
+R0067,P005,color and fit shown in picture is misleading,exchange
+R0068,P003,ordered M as per size chart but it fits like S,exchange
+R0069,P002,"changed my mind, don't need it anymore",refund
+R0070,P010,,store_credit
+R0071,P005,looks completely different from the photo,refund
+R0072,P009,listing said memory foam sole but its hard rubber,store_credit
+R0073,P004,ordered by mistake,exchange
+R0074,P005,photo showed a different length than what i received,exchange
+R0075,P010,"changed my mind, don't need it anymore",store_credit
+R0076,P002,didn't like the color in person,exchange
+R0077,P011,,refund
+R0078,P009,,exchange
+R0079,P008,ordered by mistake,refund
+R0080,P005,photo showed a different length than what i received,exchange
+R0081,P002,didn't like the color in person,store_credit
+R0082,P010,didn't like the color in person,store_credit
+R0083,P004,didn't like the color in person,refund
+R0084,P002,,exchange
+R0085,P010,found a better price elsewhere,exchange
+R0086,P012,found a better price elsewhere,exchange
+R0087,P009,specifications in listing are incorrect,refund
+R0088,P010,"changed my mind, don't need it anymore",store_credit
+R0089,P006,,refund
+R0090,P011,"damaged item, stitching quality is bad",refund
+R0091,P011,"defective piece, has a tear near the seam",refund
+R0092,P008,ordered by mistake,refund
+R0093,P010,ordered by mistake,exchange
+R0094,P002,ordered by mistake,exchange
+R0095,P006,"changed my mind, don't need it anymore",exchange
+R0096,P007,material quality does not match description,store_credit
+R0097,P007,,refund
+R0098,P006,found a better price elsewhere,exchange
+R0099,P009,product description does not match what i received,store_credit
+R0100,P008,,store_credit
+R0101,P006,ordered by mistake,refund
+R0102,P004,found a better price elsewhere,exchange
+R0103,P008,,store_credit
+R0104,P010,didn't like the color in person,exchange
+R0105,P009,product description does not match what i received,refund
+R0106,P004,"changed my mind, don't need it anymore",refund
+R0107,P011,"thread coming loose, poor stitching",store_credit
+R0108,P005,photo showed a different length than what i received,exchange
+R0109,P008,,store_credit
+R0110,P003,,store_credit
+R0111,P009,specifications in listing are incorrect,refund
+R0112,P005,color and fit shown in picture is misleading,store_credit
+R0113,P005,looks completely different from the photo,exchange
+R0114,P010,ordered by mistake,exchange
+R0115,P009,listing said memory foam sole but its hard rubber,store_credit
+R0116,P009,listing said memory foam sole but its hard rubber,exchange
+R0117,P004,didn't like the color in person,refund
+R0118,P007,"material feels cheap, not like the listing said",exchange
+R0119,P012,ordered by mistake,store_credit
+R0120,P011,"thread coming loose, poor stitching",refund
+R0121,P003,followed the size guide and it still didn't fit,exchange
+R0122,P002,,refund
+R0123,P007,material quality does not match description,refund
+R0124,P008,found a better price elsewhere,store_credit
+R0125,P007,,exchange
+R0126,P011,"damaged item, stitching quality is bad",exchange
+R0127,P011,"damaged item, stitching quality is bad",exchange
+R0128,P009,product description does not match what i received,refund
+R0129,P011,"damaged item, stitching quality is bad",refund
+R0130,P012,"changed my mind, don't need it anymore",refund
+R0131,P011,"damaged item, stitching quality is bad",exchange
+R0132,P003,followed the size guide and it still didn't fit,refund
+R0133,P006,"changed my mind, don't need it anymore",exchange
+R0134,P007,,exchange
+R0135,P010,,refund
+R0136,P010,ordered by mistake,refund
+R0137,P008,,store_credit
+R0138,P005,color and fit shown in picture is misleading,refund
+R0139,P008,found a better price elsewhere,refund
+R0140,P002,ordered by mistake,store_credit
+R0141,P005,photo showed a different length than what i received,store_credit
+R0142,P005,color and fit shown in picture is misleading,refund
+R0143,P007,,exchange
+R0144,P010,found a better price elsewhere,store_credit
+R0145,P005,looks completely different from the photo,store_credit
+R0146,P007,,store_credit
+R0147,P012,"changed my mind, don't need it anymore",store_credit
+R0148,P008,found a better price elsewhere,refund
+R0149,P010,,refund
+R0150,P010,found a better price elsewhere,store_credit
+R0151,P011,"damaged item, stitching quality is bad",store_credit
+R0152,P002,"changed my mind, don't need it anymore",exchange
+R0153,P001,followed the size guide and it still didn't fit,refund
+R0154,P005,color and fit shown in picture is misleading,refund
+R0155,P004,didn't like the color in person,exchange
+R0156,P009,specifications in listing are incorrect,refund
+R0157,P005,color and fit shown in picture is misleading,exchange
+R0158,P012,found a better price elsewhere,exchange
+R0159,P002,didn't like the color in person,refund
+R0160,P011,"damaged item, stitching quality is bad",exchange
+R0161,P009,,exchange
+R0162,P001,followed the size guide and it still didn't fit,exchange
+R0163,P006,found a better price elsewhere,store_credit
+R0164,P006,"changed my mind, don't need it anymore",exchange
+R0165,P001,followed the size guide and it still didn't fit,refund
+R0166,P011,"thread coming loose, poor stitching",exchange
+R0167,P012,found a better price elsewhere,refund
+R0168,P003,ordered M as per size chart but it fits like S,exchange
+R0169,P008,,store_credit
+R0170,P003,runs very small compared to chart shown,store_credit
+R0171,P012,ordered by mistake,store_credit
+R0172,P003,runs very small compared to chart shown,exchange
+R0173,P010,ordered by mistake,exchange
+R0174,P001,,exchange
+R0175,P004,,store_credit
+R0176,P006,,exchange
+R0177,P004,"changed my mind, don't need it anymore",exchange
+R0178,P002,didn't like the color in person,store_credit
+R0179,P001,ordered M as per size chart but it fits like S,refund
+R0180,P003,,store_credit
+R0181,P004,didn't like the color in person,refund
+R0182,P006,didn't like the color in person,store_credit
+R0183,P001,followed the size guide and it still didn't fit,refund
+R0184,P003,followed the size guide and it still didn't fit,refund
+R0185,P011,,exchange
+R0186,P004,,exchange
+R0187,P001,"size chart is wrong, way too tight",store_credit
+R0188,P002,"changed my mind, don't need it anymore",exchange
+R0189,P009,,store_credit
+R0190,P004,"changed my mind, don't need it anymore",store_credit
+R0191,P009,listing said memory foam sole but its hard rubber,refund
+R0192,P001,runs very small compared to chart shown,exchange
+R0193,P011,"thread coming loose, poor stitching",exchange
+R0194,P002,"changed my mind, don't need it anymore",refund
+R0195,P002,didn't like the color in person,store_credit
+R0196,P010,found a better price elsewhere,store_credit
+R0197,P009,listing said memory foam sole but its hard rubber,store_credit
+R0198,P007,"material feels cheap, not like the listing said",refund
+R0199,P011,"damaged item, stitching quality is bad",store_credit
+R0200,P012,didn't like the color in person,refund
+RS000,P001,runs very small compared to chart shown,refund
+RS001,P001,followed the size guide and it still didn't fit,refund
+RS002,P001,runs very small compared to chart shown,refund
+RS003,P001,runs very small compared to chart shown,refund
+RS004,P001,runs very small compared to chart shown,refund
+RS005,P001,ordered M as per size chart but it fits like S,refund
+RS006,P001,followed the size guide and it still didn't fit,refund
+RS007,P001,runs very small compared to chart shown,refund
+RS008,P001,followed the size guide and it still didn't fit,refund
+RS009,P001,followed the size guide and it still didn't fit,refund
+RS010,P001,followed the size guide and it still didn't fit,refund
+RS011,P001,"size chart is wrong, way too tight",refund
+RS012,P001,runs very small compared to chart shown,refund
+RS013,P001,ordered M as per size chart but it fits like S,refund
+RS014,P001,ordered M as per size chart but it fits like S,refund
+RS015,P001,ordered M as per size chart but it fits like S,refund
+RS016,P001,ordered M as per size chart but it fits like S,refund
+RS017,P001,runs very small compared to chart shown,refund
+RS018,P001,ordered M as per size chart but it fits like S,refund
+RS019,P001,followed the size guide and it still didn't fit,refund
+RS020,P001,"size chart is wrong, way too tight",refund
+RS021,P001,ordered M as per size chart but it fits like S,refund
+RS022,P001,followed the size guide and it still didn't fit,refund
+RS023,P001,ordered M as per size chart but it fits like S,refund
+RS024,P001,runs very small compared to chart shown,refund
+RS025,P001,followed the size guide and it still didn't fit,refund
+RS026,P001,runs very small compared to chart shown,refund
+RS027,P001,ordered M as per size chart but it fits like S,refund
+RS028,P001,followed the size guide and it still didn't fit,refund
+RS029,P001,followed the size guide and it still didn't fit,refund
+RS030,P001,followed the size guide and it still didn't fit,refund
+RS031,P001,ordered M as per size chart but it fits like S,refund
+RS032,P001,"size chart is wrong, way too tight",refund
+RS033,P001,"size chart is wrong, way too tight",refund
+RS034,P001,runs very small compared to chart shown,refund
+RS035,P001,"size chart is wrong, way too tight",refund
+RS036,P001,ordered M as per size chart but it fits like S,refund
+RS037,P001,followed the size guide and it still didn't fit,refund
+RS038,P001,followed the size guide and it still didn't fit,refund
+RS039,P001,ordered M as per size chart but it fits like S,refund
