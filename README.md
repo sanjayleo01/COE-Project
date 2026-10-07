@@ -1,6 +1,6 @@
 # Structured Return-Reason Analyser — C28 CoE Growth Project
 
-This repository now contains the review-ready MVP under **structured_return_reason_analyser/**.
+The repository contains the review-ready MVP under **structured_return_reason_analyser/**.
 
 ## Phase 2 improvements
 - Hybrid rules + TF-IDF semantic analysis
@@ -16,20 +16,17 @@ This repository now contains the review-ready MVP under **structured_return_reas
 - Streamlit dashboard
 - Reproducible synthetic dataset
 
-## Run the upgraded MVP
+## Run
 ```bash
 pip install -r requirements.txt
-python -m src.generate_data
-python -m src.evaluate
-python -m pytest -q
-streamlit run src/app.py
+python generate_data.py
+python evaluate.py
+python -m pytest structured_return_reason_analyser/tests -q
+streamlit run app.py
 ```
 
-For the upgraded package, use:
-```text
-structured_return_reason_analyser/
-```
+The detailed implementation lives in `structured_return_reason_analyser/src/`, with experiment, architecture, risk, stakeholder-validation and Phase 2 documentation in `structured_return_reason_analyser/docs/`.
 
-The supplied dataset is synthetic and reproducible. Metrics are engineering validation, not production accuracy. Production rollout requires an independently audited real-return holdout.
+The supplied evaluation dataset is synthetic and reproducible. Its metrics demonstrate end-to-end engineering behavior, not production accuracy. Production rollout requires an independently audited real-return holdout.
 
 See `structured_return_reason_analyser/docs/PHASE_2_REPORT.md` for the Qbee review summary.
